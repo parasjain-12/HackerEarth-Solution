@@ -1,0 +1,11 @@
+t= int(input())
+for _ in range(t):
+    n = int(input())
+    l = list(map(int,input().split()))
+    s = sum(l)
+    for i in range(len(l)):
+        if l[i]>=s-l[i]:
+            print('No')
+            break
+    else:
+        print('Yes')
