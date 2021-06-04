@@ -7,5 +7,5 @@ for i in range(n):
 l = list(set(l))
 l.sort()
 print(len(l))
-for i in range(len(l)):
-    print(l[i])
+for i in l:
+    print(i)
